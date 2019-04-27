@@ -1,6 +1,6 @@
 language: cpp
-dist: xenial
-sudo: required
+os: osx
+osx_image: xcode10.2
 git:
   depth: 3
 env:
