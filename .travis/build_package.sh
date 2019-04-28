@@ -5,7 +5,7 @@ set -e
 CXX_FLAGS="-DCGAL_NDEBUG -ftemplate-backtrace-limit=0"
 
 function mytime {
-  /usr/bin/time -f "Spend time of %C: %E (real)" "$@"
+  /usr/bin/time  "$@"
 }
 
 function build_examples {
