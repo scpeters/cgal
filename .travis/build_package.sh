@@ -59,7 +59,6 @@ cd $ROOT
     mytime zsh $ROOT/Scripts/developer_scripts/test_merge_of_branch HEAD
     #test dependencies 
     cd $ROOT
-    mytime bash Scripts/developer_scripts/cgal_check_dependencies.sh --check_headers /usr/bin/doxygen
 
     cd .travis
   	#parse current matrix and check that no package has been forgotten
