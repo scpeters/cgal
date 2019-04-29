@@ -17,7 +17,7 @@ fi
 PACKAGES=()
 INDEX=0
 i=0
-for f in *
+for f in $(ls | sort --dictionary-order --ignore-case)
 do
   if [ -d  "$f/package_info/$f" ]
 	then
